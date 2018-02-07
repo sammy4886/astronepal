@@ -1,0 +1,11 @@
+@extends('frontend.main')
+@section('content')
+    @include('frontend.layouts.slider')
+    @include('frontend.partials.appointment')
+    @include('frontend.partials.about')
+    @include('frontend.partials.why')
+    @include('frontend.partials.services')
+    @include('frontend.partials.timer')
+    @include('frontend.partials.team')
+    @include('frontend.partials.price')
+@endsection
