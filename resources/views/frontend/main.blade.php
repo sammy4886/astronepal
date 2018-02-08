@@ -7,7 +7,7 @@
 <html lang="en"><!--<![endif]-->
 <!-- Begin Head -->
 <head>
-    <title>Astrology Multipurpose Responsive HTML Template</title>
+    <title>Astrology Nepal</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="Astrology">
