@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'FrontEndController@home');
-Route::get('/contact', 'FrontEndController@contact');
-Route::get('/payment', 'FrontEndController@payment');
-Route::get('/about', 'FrontEndController@about');
+Route::get('/', 'FrontendController@home');
+Route::get('/contact', 'FrontendController@contact');
+Route::get('/payment', 'FrontendController@payment');
+Route::get('/about', 'FrontendController@about');
 
