@@ -44,3 +44,7 @@
     z-index: -1;
     position:initial;
 }
+.ast_about_info_img img{
+    width: 350px;
+    margin-top: 0px;
+}

@@ -60,8 +60,8 @@
                                     {{--<li><a href="index2.html">home V2</a></li>--}}
                                 {{--</ul>--}}
                             </li>
-                            <li><a href="/about">about</a></li>
-                            <li><a href="">services</a></li>
+                            <li><a href="{{url('/about')}}">about</a></li>
+                            <li><a href="{{url('/about')}}">services</a></li>
                             {{--<li><a href="">blog</a>--}}
                                 {{--<ul class="submenu">--}}
                                     {{--<li><a href="#">blog</a>--}}

@@ -52,7 +52,7 @@
                     <li>Match you properly for marriage</li>
                     <li>Give you guidance for business</li>
              <br>
-                    <h4>Service Benefits</h4>
+                    <h4>Special Benefits</h4>
                     <p>We offer a wide range of services including, but not limited to:</p>
                     <li>Blessings</li>
                     <li> Match making & BIRTH CHART READINGS</li>
