@@ -44,7 +44,24 @@
     z-index: -1;
     position:initial;
 }
+/*about img*/
 .ast_about_info_img img{
     width: 350px;
     margin-top: 0px;
+}
+/*nav bar a*/
+.ast_menu ul li a {
+    display: block;
+    text-transform: capitalize;
+    color: #ff6f00;
+    font-weight:700;
+    font-size:large;
+    padding: 38px 15px 38px 15px;
+    position:relative;
+    z-index:1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }

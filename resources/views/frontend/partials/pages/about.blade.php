@@ -12,9 +12,9 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <ul class="breadcrumb">
-                    <li><a href="index.html">home</a></li>
+                    <li><a href="{{url('/')}}">home</a></li>
                     <li>//</li>
-                    <li><a href="about.html">About us</a></li>
+                    <li><a href="{{url('/about')}}">About us</a></li>
                 </ul>
             </div>
         </div>
@@ -60,6 +60,14 @@
                     <li>Business/CORPORATE consultations</li>
                     <li>Home stay with spiritual pilgrimage</li>
                     <li>Wedding packages</li>
+                    <br>
+                    <h4>Travel Packages</h4>
+                    <p>In addition to our variety of services available worldwide, we also offer Spiritual pilgrimage packages in Nepal, India and Tibet. Here, you will experience:</p>
+                    <li>The many temples & spiritual centers</li>
+                    <li>Priest will personally teach you puja</li>
+                    <li> Guided tour of the Nepal</li>
+                    <li>Blessings, and chart readings</li>
+                    <li>Homa/Puja in Himalayas. The home of Lord Shiva.</li>
                 </div>
             </div>
         </div>

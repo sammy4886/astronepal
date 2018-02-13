@@ -80,7 +80,7 @@
                                     {{--</li>--}}
                                 {{--</ul>--}}
                             {{--</li>--}}
-                            <li><a href="">appointment</a></li>
+                            <li><a href="{{url('/contact')}}">appointment</a></li>
                             {{--<li><a href="#">pages</a>--}}
                                 {{--<ul class="submenu">--}}
                                     {{--<li><a href="">Astrologers</a></li>--}}
