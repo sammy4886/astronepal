@@ -53,7 +53,7 @@ Version: 1.0
 		
 		midClick: true,
 		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
+		mainClass: 'my-mfp-zoom-pages'
 	});
 	
 	// Video Js

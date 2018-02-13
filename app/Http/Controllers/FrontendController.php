@@ -20,7 +20,7 @@ class FrontendController extends Controller
     }
     public function about()
     {
-        return view('frontend.partials.about');
+        return view('frontend.partials.pages.about');
     }
 }
 

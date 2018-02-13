@@ -25,7 +25,7 @@ return [
     | supported by Laravel is shown below to make development simple.
     |
     |
-    | All database work in Laravel is done through the PHP PDO facilities
+    | All database work pages Laravel is done through the PHP PDO facilities
     | so make sure you have the driver for your particular database of
     | choice installed on your machine before you begin development.
     |
@@ -87,7 +87,7 @@ return [
     |
     | This table keeps track of all the migrations that have already run for
     | your application. Using this information, we can determine which of
-    | the migrations on disk haven't actually been run in the database.
+    | the migrations on disk haven't actually been run pages the database.
     |
     */
 
@@ -100,7 +100,7 @@ return [
     |
     | Redis is an open source, fast, and advanced key-value store that also
     | provides a richer set of commands than a typical key-value systems
-    | such as APC or Memcached. Laravel makes it easy to dig right in.
+    | such as APC or Memcached. Laravel makes it easy to dig right pages.
     |
     */
 
