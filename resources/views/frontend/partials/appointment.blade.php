@@ -26,52 +26,52 @@
                             </select>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>time of day</label>
+                            <label>Payment Option</label>
                             <select>
-                                <option value="1"> Morning </option>
-                                <option value="2">Afternoon</option>
-                                <option value="3">Evening </option>
+                                <option value="1"> Esewa </option>
+                                <option value="2">Skrill</option>
+                                <option value="3">Bank Deposit </option>
                             </select>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>way to reach</label>
-                            <select>
-                                <option value="1">Phone </option>
-                                <option value="2">Email</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>Preferred  Date</label>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Date">
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Month">
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Year">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>Preferred Time</label>
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Hrs">
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Mins">
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <input type="text" placeholder="Sec">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>address</label>
-                            <textarea placeholder="Address" rows="4"></textarea>
-                        </div>
+                        {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
+                            {{--<label>way to reach</label>--}}
+                            {{--<select>--}}
+                                {{--<option value="1">Phone </option>--}}
+                                {{--<option value="2">Email</option>--}}
+                            {{--</select>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
+                            {{--<label>Preferred  Date</label>--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Date">--}}
+                                {{--</div>--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Month">--}}
+                                {{--</div>--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Year">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
+                            {{--<label>Preferred Time</label>--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Hrs">--}}
+                                {{--</div>--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Mins">--}}
+                                {{--</div>--}}
+                                {{--<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">--}}
+                                    {{--<input type="text" placeholder="Sec">--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
+                            {{--<label>address</label>--}}
+                            {{--<textarea placeholder="Address" rows="4"></textarea>--}}
+                        {{--</div>--}}
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Reason for appointment</label>
                             <textarea placeholder="Message" rows="4"></textarea>

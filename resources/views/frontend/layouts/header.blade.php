@@ -5,14 +5,14 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="ast_contact_details">
                     <ul>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> +1800 326 3264</li>
-                        <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> support@website.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> +977-984-155-3257</li>
+                        <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> astrokathmandu@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="ast_autho_wrapper">
                     <ul>
                         <li><a href="{{url('/payment')}}"><i class="fa fa-sign-in" aria-hidden="true"></i> Payment Opions</a></li>
-                        <li><a class="popup-with-zoom-anim" href="#signup-dialog"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
+                        {{--<li><a class="popup-with-zoom-anim" href="#signup-dialog"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>--}}
                     </ul>
                     {{--<div id="login-dialog" class="zoom-anim-dialog mfp-hide">--}}
                         {{--<h1>Login Form</h1>--}}
