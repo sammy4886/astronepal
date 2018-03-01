@@ -15,4 +15,8 @@ Route::get('/', 'FrontendController@home');
 Route::get('/contact', 'FrontendController@contact');
 Route::get('/payment', 'FrontendController@payment');
 Route::get('/about', 'FrontendController@about');
+//Route::get('/appointment', 'FrontendController@appointment');
+Route::group([ 'as' => 'appointment.', 'prefix' => 'appointment' ], function (){
+    Route::post('', 'AppointmentController@store')->name('store');
+});
 

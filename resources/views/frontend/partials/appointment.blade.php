@@ -3,35 +3,72 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                @if(Session::has('flash_message'))
+                    <div class="alert alert-success">{{Session::get('flash_message')}}</div>
+                @endif
                 <div class="ast_journal_box_wrapper">
-                    <form>
-                        <h3>Book An Appointment</h3>
+
+                                             <h3>Book An Appointment</h3>
+                    {{ Form::open(['route' =>'appointment.store','class'=>'form form-validate','role'=>'form', 'files'=>true, 'novalidate']) }}
+                    <form method="post" action="" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>name</label>
-                            <input type="text" placeholder="Name">
+                            <input type="text" name="name" placeholder="Name">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>email</label>
-                            <input type="text" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>mobile nmber</label>
-                            <input type="text" placeholder="Mobile Number">
+                            <label>mobile number</label>
+                            <input type="number" name="number" placeholder="Mobile Number">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>gender</label>
-                            <select>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
+                            <div class="col-sm-7">
+                                <div class="radio radio-styled">
+                                    <label>
+                                        <input type="radio" name="gender" value="MALE" style="height:15px">
+                                        <span>Male</span>
+                                    </label>
+                                </div>
+                                <div class="radio radio-styled">
+                                    <label>
+                                        <input type="radio" name="gender" value="FEMALE" style="height:15px">
+                                        <span>Female</span>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Payment Option</label>
-                            <select>
-                                <option value="1"> Esewa </option>
-                                <option value="2">Skrill</option>
-                                <option value="3">Bank Deposit </option>
-                            </select>
+                            {{--<select>--}}
+                                {{--<option value="1" name="payment"> Esewa </option>--}}
+                                {{--<option value="2" name="payment">Skrill</option>--}}
+                                {{--<option value="3" name="payment">Bank Deposit </option>--}}
+                            {{--</select>--}}
+                            <div class="col-sm-7" >
+                                <div class="radio radio-styled">
+                                    <label>
+                                        <input type="radio" name="payment" value="Esews"style="height:15px";>
+                                        <span>Esewa</span>
+                                    </label>
+                                </div>
+                                <div class="radio radio-styled" >
+                                    <label>
+                                        <input type="radio" name="payment" value="Skrill" style="height:15px; ">
+                                        <span>Skrill</span>
+                                    </label>
+                                </div>
+                                <div class="radio radio-styled">
+                                    <label>
+                                        <input type="radio" name="payment" value="Western Union" style="height:15px";>
+                                        <span>Western Union</span>
+                                    </label>
+                                </div>
+                            </div>
+
                         </div>
                         {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
                             {{--<label>way to reach</label>--}}
@@ -74,15 +111,20 @@
                         {{--</div>--}}
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <label>Reason for appointment</label>
-                            <textarea placeholder="Message" rows="4"></textarea>
+                            <textarea placeholder="Message" name="message" rows="4"></textarea>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <button type="button" class="ast_btn pull-right">make an appointment</button>
+                            <button type="submit" class="ast_btn pull-right">make an appointment</button>
                         </div>
                     </form>
+                    {{form::close()}}
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 <!--Appointment End-->
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('/backend/css/bootstrap-select.min.css') }}">
+@endpush

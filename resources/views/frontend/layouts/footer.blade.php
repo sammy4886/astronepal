@@ -32,11 +32,11 @@
                     <h4 class="widget-title">our services</h4>
                     <div class="ast_servicelink">
                         <ul>
-                            <li><a href="horoscopes.html">horoscopes</a></li>
+                            <li><a href="">horoscopes</a></li>
                             {{--<li><a href="gemstones.html">gemstones</a></li>--}}
                             {{--<li><a href="numerology.html">numerology</a></li>--}}
                             {{--<li><a href="tarot.html">tarot cards</a></li>--}}
-                            <li><a href="journal.html">Birth journal</a></li>
+                            <li><a href="">Birth journal</a></li>
                         </ul>
                     </div>
                 </div>

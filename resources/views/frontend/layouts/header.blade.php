@@ -22,20 +22,20 @@
                             {{--<button type="submit" class="ast_btn">Payment</button>--}}
                         {{--</form>--}}
                     {{--</div>--}}
-                    <div id="signup-dialog" class="zoom-anim-dialog mfp-hide">
-                        <h1>signup form</h1>
-                        <form>
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <input type="text" placeholder="Mobile Number">
-                            <select>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
-                            <button type="submit" class="ast_btn">submit</button>
-                        </form>
-                    </div>
+                    {{--<div id="signup-dialog" class="zoom-anim-dialog mfp-hide">--}}
+                        {{--<h1>signup form</h1>--}}
+                        {{--<form>--}}
+                            {{--<input type="text" placeholder="Name">--}}
+                            {{--<input type="text" placeholder="Email">--}}
+                            {{--<input type="password" placeholder="Password">--}}
+                            {{--<input type="text" placeholder="Mobile Number">--}}
+                            {{--<select>--}}
+                                {{--<option value="male">Male</option>--}}
+                                {{--<option value="female">Female</option>--}}
+                            {{--</select>--}}
+                            {{--<button type="submit" class="ast_btn">submit</button>--}}
+                        {{--</form>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
@@ -61,6 +61,7 @@
                                 {{--</ul>--}}
                             </li>
                             <li><a href="{{url('/about')}}">about</a></li>
+
                             <li><a href="{{url('/about')}}">services</a></li>
                             {{--<li><a href="">blog</a>--}}
                                 {{--<ul class="submenu">--}}
@@ -80,7 +81,8 @@
                                     {{--</li>--}}
                                 {{--</ul>--}}
                             {{--</li>--}}
-                            <li><a href="{{url('/contact')}}">appointment</a></li>
+                            <li><a href="{{url('/')}}">appointment</a></li>
+
                             {{--<li><a href="#">pages</a>--}}
                                 {{--<ul class="submenu">--}}
                                     {{--<li><a href="">Astrologers</a></li>--}}

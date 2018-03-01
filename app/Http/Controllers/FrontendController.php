@@ -22,5 +22,9 @@ class FrontendController extends Controller
     {
         return view('frontend.partials.pages.about');
     }
+    public function appointment()
+    {
+        return view('frontend.partials.pages.appointment');
+    }
 }
 
