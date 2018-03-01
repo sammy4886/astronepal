@@ -5,7 +5,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="ast_contact_details">
                     <ul>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> +977-984-155-3257</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> +977-984-155-3257 <i class="fa fa-phone" aria-hidden="true"></i>+977-981-894-1628</li>
                         <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> astrokathmandu@gmail.com</a></li>
                     </ul>
                 </div>
