@@ -10,6 +10,7 @@ class Appointment extends Model
     'id',
     'name',
         'number',
+        'tnumber',
     'email',
     'gender',
     'payment',

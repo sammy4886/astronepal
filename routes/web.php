@@ -20,3 +20,7 @@ Route::group([ 'as' => 'appointment.', 'prefix' => 'appointment' ], function (){
     Route::post('', 'AppointmentController@store')->name('store');
 });
 
+Route::get('paywithpaypal', array('as' => 'addmoney.paywithpaypal','uses' => 'AddMoneyController@payWithPaypal',));
+Route::post('paypal', array('as' => 'addmoney.paypal','uses' => 'AddMoneyController@postPaymentWithpaypal',));
+Route::get('paypal', array('as' => 'payphp artisan make:controller AddMoneyController
+ment.status','uses' => 'AddMoneyController@getPaymentStatus',));

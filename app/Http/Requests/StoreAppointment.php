@@ -34,6 +34,7 @@ class StoreAppointment extends FormRequest
             'name'   => $this->get('name'),
             'email'=>$this->get('email'),
             'number'=>$this->get('number'),
+            'tnumber'=>$this->get('tnumber'),
             'gender'=>$this->get('gender'),
             'payment'=>$this->get('payment'),
             'message'=>$this->get('message'),

@@ -51,7 +51,7 @@
                             <div class="col-sm-7" >
                                 <div class="radio radio-styled">
                                     <label>
-                                        <input type="radio" name="payment" value="Esews"style="height:15px";>
+                                        <input type="radio" name="payment" value="Esewa"style="height:15px";>
                                         <span>Esewa</span>
                                     </label>
                                 </div>
@@ -63,12 +63,19 @@
                                 </div>
                                 <div class="radio radio-styled">
                                     <label>
-                                        <input type="radio" name="payment" value="Western Union" style="height:15px";>
+                                        <input type="radio" name="payment" value="Bank Deposit" style="height:15px";>
                                         <span>Western Union</span>
                                     </label>
                                 </div>
                             </div>
-
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        {{--<label></label>--}}
+                                        <input type="number" name="tnumber" placeholder="Please Enter Payment Transaction Number">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         {{--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">--}}
                             {{--<label>way to reach</label>--}}

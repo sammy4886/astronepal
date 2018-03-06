@@ -20,6 +20,7 @@ class CreateAppointmentsTable extends Migration
             $table->double('number');
             $table->enum('gender', array('Male','Female'));
             $table->enum('payment', array('Esewa','Skrill','Bank Deposit'));
+            $table->double('tnumber');
             $table->string('message');
             $table->timestamps();
         });
