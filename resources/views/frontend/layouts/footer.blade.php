@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
                 <div class="ast_footer_info">
-                    <img src="images/header/logo.png" alt="Logo">
+                    <img src="images/astromandu.png" alt="Logo">
                     <p>Astro Kathmandu is a leading Vedic Hindu Spiritual service provider in Kathmandu, Nepal. Anil Chalise and his team of priests have been serving spiritually for generations to seekers worldwide.</p>
                     <ul>
                         <li><a href="https://www.facebook.com/Jagrat.jaladhi"  target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
